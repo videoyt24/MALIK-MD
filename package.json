@@ -1,5 +1,5 @@
 {
-  "name": "izuku-md",
+  "name": "malik-md",
   "version": "0.0.7",
   "description": "Multi device whatsapp bot by excelottah6.",
   "main": "lib/client.js",
@@ -74,10 +74,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excelottah/IZUKU-MD.git"
+    "url": "git+https://github.com/arkhan998/MALIK-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/excelottah6/IZUKU-MD/issues"
+    "url": "https://github.com/arkhan998/MALIK-MD/issues"
   },
-  "homepage": "https://github.com/excelottah6/IZUKU-MD#readme"
+  "homepage": "https://github.com/arkhan998/MALIK-MD#readme"
 }
