@@ -7,21 +7,21 @@ global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
-global.github = 'https://github.com/excelottah6/IZUKU-MD'
+global.github = 'https://github.com/arkhan998/MALIK-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '2347039570336,923466319114'
-global.devs = '2347039570336';
-global.website = 'https://github.com/excelottah6/IZUKU-Md' //wa.me/+91000000000000
+global.sudo = process.env.SUDO || '923124533358,923131294440'
+global.devs = '923124533358';
+global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "SESSION ID PASTE HERE",
-  botname:   process.env.BOT_NAME === undefined ? 'IZUKU BOT' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'MALIK BOT' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'excel' : process.env.OWNER_NAME,
   author:  process.env.PACK_INFO === undefined ? 'excel' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO === undefined ? 'IZUKU-Md' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO === undefined ? 'malik-Md' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
