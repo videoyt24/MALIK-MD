@@ -1,5 +1,5 @@
 {
-  "name": "IZUKU-Md by excel ",
+  "name": "MALIK-MD ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://telegra.ph/file/3845ab217fafcab86ddf5.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "IzukuBot", "Secktor","IZUKUMD","theme bot","multi device","baileys","excel"],
@@ -72,7 +72,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "2347039570336"
+       "value": "923124533358"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@Excelottah/BLACK-Md"
