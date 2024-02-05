@@ -39,9 +39,21 @@
 # ```Deployments METHODS```
 
  
- 
+<h4 align="left"> Deploy on Heroku
+</h4>
+
+</p>
+
+<p align="left" >
+    <a href="https://heroku.com/deploy?template=https://github.com/arkhan998/MALIK-MD">
+    <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku" >
+    </a>
+
+</p> 
+
+<br>
    
-<h4 align="left"> Deploy on Repl.it
+<h4 align="left"> Deploy on Replit
 </h4>
 
 <p align="left" >
@@ -74,19 +86,8 @@
 
 
 
-<br>
+
  
-<h4 align="left"> Deploy on Heroku
-</h4>
-
-</p>
-
-<p align="left" >
-    <a href="https://heroku.com/deploy?template=https://github.com/arkhan998/MALIK-MD">
-    <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku" >
-    </a>
-
-</p>
 
 
 </p>
@@ -151,16 +152,16 @@
   <a href="[https://github.com/chhaseeb47]"><img src="https://github.com/arkhan998.png" width="200" height="200" alt="Ash"/></a>
   
 | [ATA-UR-REHMAN](https://github.com/arkhan998) |
-| Owner, Developer, Bug Fixer, Maintainer, updates|
+| Owner, Developer, Maintainer, updates|
 
-
+---
 <a href="[https://github.com/naveeddogar.png]"><img src="https://github.com/naveeddogar.png" width="200" height="200" alt="Ash"/></a>
  </div>
 <br>
 <h4 align="left">
   
 | [NAVEED DOGAR ](https://github.com/naveeddogar) |
-| CO.Devloper, Fixer|
+| CO.Devloper, Fixer, Scripts maker|
 
 ---
 <a href="[https://github.com/abdulghhani.png]"><img src="https://github.com/abdulghhani.png" width="200" height="200" alt="Ash"/></a>
