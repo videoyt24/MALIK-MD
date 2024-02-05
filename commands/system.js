@@ -49,13 +49,13 @@ cmd({
                 return
             }
             let buttonMessaged = {
-                image: { url: 'https://citel-x.herokuapp.com/session' },
+                image: { url: 'https://malik-md-qr.vercel.app/' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'IZUKU  Session',
+                        title: 'Malik  Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -250,20 +250,31 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by EXCEL.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Malik.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
-_This is  ${tlang().title}._
-${alivemessage}
+┏━━❀ *_WELCOM_* *_DEAR_* 💞 ❀───╮
+┃ 
+┃         𝗛𝗶 𝗜'𝗠 𝗔𝗟𝗜𝗩𝗘 𝗡𝗢𝗪
+┃ ◈ *RUN:-* _${runtime(process.uptime())}_
+┃ 
+┃ ⛷️◌· ͟͞꒰➳   ᴛʜɪꜱ ɪꜱ ᴍᴀʟɪᴋ ᴍᴅ ʙᴏᴛ
+┃ 
+┃ 👨🏻‍💻◌· ͟͞꒰➳  𝙼𝙰𝙳𝙴 𝙱𝚈-𝙰𝚃𝙰 𝚄𝚁 𝚁𝙴𝙷𝙼𝙰𝙽
+┃ 
+┃ ◌· ͟͞꒰➳𝙼𝚈 𝚂𝙾𝙲𝙸𝙰𝙻 𝙼𝙴𝙳𝙸𝙰 𝙻𝙸𝙽𝙺𝚂👇🏻
+┃     YouTube  https://youtube.com/@technicalmalikofficial?si=-jWDPUD9eF3o9EXs
+┃    FACEBOOK https://www.facebook.com/ataurrehman.khan.3557?mibextid=2JQ9oc
+┃     INSTAGRAM https://www.instagram.com/ataurrehman.khan.3557?igsh=Z21wNHQ0MnBnMWVo
+┃     TWITTER https://x.com/ARKing292?t=khDrJkGOY1tQEA1vYWzRVA&s=09
+┃ 
+┃    💁🏻‍♂️◌· ͟͞꒰➳ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴᴇʟ🪀👇🏻
+┃   https://whatsapp.com/channel/0029VaN8WMOHFxP0SLAKKu0P
+┃ 
+┃  💁🏻‍♂️◌· ͟͞꒰➳ ᴊᴏɪɴ ᴛᴇꜱᴛ ɢʀᴏᴜᴘ🪀👇🏻
+┃ https://chat.whatsapp.com/DFPl94ASqoHL5jdeZ1eFJG
+┗━━━━━━━━━━━❀˖°❀˖°❀˖°
 ━━✥◈✥━━
-◈*Version:-* _0.0.7_
-◈*Uptime:-* _${runtime(process.uptime())}_
-◈*Owner:-* _${Config.ownername}_
-◈*Branch:-* _${Config.BRANCH}_
-━━✥◈✥━━
-_Type ${prefix}menu for my command list._
-
-_Powered by ${Config.ownername}_
 `;
             let aliveMessage = {
                 image: {
