@@ -76,18 +76,18 @@ Secktor.cmd({
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `╭─────────────┈⊷\n│ 「 *${tiny(category)}* 」\n╰┬────────────┈⊷\n` ;
-                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────────────┈⊷\n│ 「 *${tiny(category)}* 」\n╰┬────────────┈⊷\n` ;      
-                        for (const plugins of cmds[category]) { str += `┌┤\n││◦➛ ${fancytext(plugins,1)}\n` ; }
+                   str += `╭─────────────┈⊷\n│ 「 *${tiny(category)}* 」\n╰┬────────────┈⊷\n┌┤\n` ;
+                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────────────┈⊷\n│ 「 *${tiny(category)}* 」\n╰┬────────────┈⊷\n┌┤\n` ;      
+                        for (const plugins of cmds[category]) { str += `││◦➛ ${fancytext(plugins,1)}\n` ; }
                         str += `│╰────────────┈⊷\n╰─────────────┈⊷\n`  ;
                         break ;
                    }
-                   else { for (const plugins of cmds[category]) { str += `┌┤\n││◦➛ ${fancytext(plugins,1)}\n` ; }
+                   else { for (const plugins of cmds[category]) { str += `││◦➛ ${fancytext(plugins,1)}\n` ; }
                          str += `│╰────────────┈⊷\n╰─────────────┈⊷\n`  ; 
                    }
   
                 }
-                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Made By Ata Ur Rehman & Naveed dogar* `
+                str+= `*⭐️ᴍᴀʟɪᴋ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ᴀᴛᴀ ᴜʀ ʀᴇʜᴍᴀɴ & ɴᴀᴠᴇᴇᴅ ᴅᴏɢᴀʀ* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
@@ -110,7 +110,7 @@ Secktor.cmd({
 ┃ ⛥┏━━━━━•❃°•°•━━━━━•❃°•°•      
 •͙͙✧⃝•͙ User: ${citel.pushName}
 •͙͙✧⃝•͙ Theme: ${tlang().title}
-•͙͙✧⃝•͙│ Prefix: ${prefix}
+•͙͙✧⃝•͙ Prefix: ${prefix}
 •͙͙✧⃝•͙ Owner: Ata Ur Rehman
 •͙͙✧⃝•͙ Commands: ${commands.length}
 •͙͙✧⃝•͙ Uptime: ${runtime(process.uptime())}
