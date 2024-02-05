@@ -3,8 +3,9 @@
   <a href="[https://chat.whatsapp.com/BEhEne7RdGBC3y5vYltuxL](https://chat.whatsapp.com/DFPl94ASqoHL5jdeZ1eFJG)">
     <img alt=Support height="400" src="https://telegra.ph/file/dce77f7538019d05afe65.jpg"> 
     </p>
-<h1 align="center">  MALIK-MD MULTI DEVICE 
-</h1>
+<p align  = center> <a href="#"><img title="MALIK-MD MULTI DEVICE" src="https://img.shields.io/badge/MALIK-MD WhatsApp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a> </p>
+
+
 <p align="center"> 
  !Hy I Am A WhatsApp Bot Multi Device Create By Ata Ur Rehman And Team.
 
