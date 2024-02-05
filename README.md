@@ -6,7 +6,7 @@
 <p align  = center> <a href="#"><img title="MALIK-MD MULTI DEVICE" src="https://img.shields.io/badge/MALIK-MD WhatsApp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a> </p>
 
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+MALIK+MD+WA+BOT.;CREATED+BY+ATA+UR+REHMAN+AND+TEAM;BEST+MULTIDEVICE+WA+BOT;THANKS+FOR+VISITING+MY+GIT)](https://git.io/typing-svg)
+                 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+MALIK+MD+WA+BOT.;CREATED+BY+ATA+UR+REHMAN+AND+TEAM;BEST+MULTIDEVICE+WA+BOT;THANKS+FOR+VISITING+MY+GIT)](https://git.io/typing-svg)
 
 
 
