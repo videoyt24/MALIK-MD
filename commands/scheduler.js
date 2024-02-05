@@ -1,103 +1,12 @@
 /**
-██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
-██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
-██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
-██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
-██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
-╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
-                                                            
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Izuku-Md
- * @author : excel <https://github.com/excelottah6>
- * @description : Izuku,A Multi-functional whatsapp bot.
+ * @project_name : MALIK-MD
+ * @author : arkhan998 <https://github.com/arkhan998>
+ * @description : malik,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
- const { tlang,sck,prefix,cmd } = require('../lib')
- cmd({
-     pattern: "amute",
-     desc: "sets auto mute time in group.",
-     category: "moderation",
- },
- async(Void, citel, text,{ isCreator }) => {
-     if (!isCreator) return citel.reply(tlang().owner)
-     if(!citel.isGroup) return citel.reply(tlang().group)
-     if(!text.split(':')[1]) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
-     //if(!Number.isInteger(text.split(':')[0])) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`);
-     //if(!Number.isInteger(text.split(':')[1])) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
-           let Group = await sck.findOne({ id: citel.chat })
-             if (!Group) {
-                 await new sck({ id: citel.chat, mute: text }).save()
-                 return citel.reply('Mute added.')
-             } else {
-                 await await sck.updateOne({ id: citel.chat }, { mute:text })
-                 return citel.reply(`_Mute added for ${text} successfully._`)     
-             }      
- }
- )
-
- //--------------------------------------------------------------------------------
- cmd({
-    pattern: "aunmute",
-    desc: "sets unmute time in group.",
-    category: "moderation",
-},
-async(Void, citel, text,{ isCreator }) => {
-    if (!isCreator) return citel.reply(tlang().owner)
-    if(!citel.isGroup) return citel.reply(tlang().group)
-    if(!text.split(':')[0]) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
-   // if(!Number.isInteger(text.split(':')[0])) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`);
-   // if(!Number.isInteger(text.split(':')[1])) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
-          let Group = await sck.findOne({ id: citel.chat })
-            if (!Group) {
-                await new sck({ id: citel.chat, unmute: text }).save()
-                return citel.reply('Mute added.')
-            } else {
-                await await sck.updateOne({ id: citel.chat }, { unmute:text })
-                return citel.reply(`_Unmute updated for ${text} successfully._`)
-                
-            }      
-}
-)
- //--------------------------------------------------------------------------------
- cmd({
-    pattern: "dunmute",
-    desc: "Delete unmute from group.",
-    category: "moderation",
-},
-async(Void, citel, text,{ isCreator }) => {
-    if (!isCreator) return citel.reply(tlang().owner)
-    if(!citel.isGroup) return citel.reply(tlang().group)
-          let Group = await sck.findOne({ id: citel.chat })
-            if (!Group) {
-                return citel.reply('There\'s no unmute set in group.')
-            } else {
-                await await sck.updateOne({ id: citel.chat }, { unmute:'false' })
-                return citel.reply('Unmute deleted successfully.')
-                
-            }      
-}
-)
- //--------------------------------------------------------------------------------
- cmd({
-    pattern: "dmute",
-    desc: "Delete mute from group.",
-    category: "moderation",
-},
-async(Void, citel, text,{ isCreator }) => {
-    if (!isCreator) return citel.reply(tlang().owner)
-    if(!citel.isGroup) return citel.reply(tlang().group)
-          let Group = await sck.findOne({ id: citel.chat })
-            if (!Group) {
-                return citel.reply('There\'s no mute set in group.')
-            } else {
-                await await sck.updateOne({ id: citel.chat }, { mute:'false' })
-                return citel.reply('Mute deleted successfully.')
-                
-            }      
-}
-)
- //--------------------------------------------------------------------------------
+const _0x782339=_0x19b2;(function(_0x1cdf87,_0x224d21){const _0x1f8c24=_0x19b2,_0x11bed5=_0x1cdf87();while(!![]){try{const _0x2faee1=-parseInt(_0x1f8c24(0xb3))/0x1*(parseInt(_0x1f8c24(0x9e))/0x2)+parseInt(_0x1f8c24(0xb7))/0x3+parseInt(_0x1f8c24(0xb4))/0x4+-parseInt(_0x1f8c24(0xb5))/0x5+-parseInt(_0x1f8c24(0x9f))/0x6*(-parseInt(_0x1f8c24(0xb1))/0x7)+-parseInt(_0x1f8c24(0xa8))/0x8+-parseInt(_0x1f8c24(0xaf))/0x9;if(_0x2faee1===_0x224d21)break;else _0x11bed5['push'](_0x11bed5['shift']());}catch(_0x5a92e6){_0x11bed5['push'](_0x11bed5['shift']());}}}(_0x305b,0x44edc));const {tlang,sck,prefix,cmd}=require(_0x782339(0xb8));cmd({'pattern':_0x782339(0xb2),'desc':_0x782339(0xa3),'category':_0x782339(0xad)},async(_0x3b7d13,_0xd98ee7,_0x4e5cde,{isCreator:_0x59ac88})=>{const _0x3a627d=_0x782339;if(!_0x59ac88)return _0xd98ee7[_0x3a627d(0xaa)](tlang()[_0x3a627d(0x98)]);if(!_0xd98ee7[_0x3a627d(0x93)])return _0xd98ee7[_0x3a627d(0xaa)](tlang()[_0x3a627d(0x9a)]);if(!_0x4e5cde[_0x3a627d(0xae)](':')[0x1])return _0xd98ee7[_0x3a627d(0xaa)](_0x3a627d(0x9d)+prefix+_0x3a627d(0xac));let _0x1e1444=await sck[_0x3a627d(0xab)]({'id':_0xd98ee7[_0x3a627d(0x94)]});return!_0x1e1444?(await new sck({'id':_0xd98ee7[_0x3a627d(0x94)],'mute':_0x4e5cde})[_0x3a627d(0x9c)](),_0xd98ee7[_0x3a627d(0xaa)]('Mute\x20added.')):(await await sck[_0x3a627d(0x96)]({'id':_0xd98ee7[_0x3a627d(0x94)]},{'mute':_0x4e5cde}),_0xd98ee7[_0x3a627d(0xaa)](_0x3a627d(0xa1)+_0x4e5cde+_0x3a627d(0xa9)));}),cmd({'pattern':_0x782339(0x97),'desc':_0x782339(0xb0),'category':_0x782339(0xad)},async(_0x3d74bf,_0x2d20b0,_0x21d449,{isCreator:_0x35116c})=>{const _0x3fe073=_0x782339;if(!_0x35116c)return _0x2d20b0[_0x3fe073(0xaa)](tlang()[_0x3fe073(0x98)]);if(!_0x2d20b0[_0x3fe073(0x93)])return _0x2d20b0[_0x3fe073(0xaa)](tlang()[_0x3fe073(0x9a)]);if(!_0x21d449[_0x3fe073(0xae)](':')[0x0])return _0x2d20b0[_0x3fe073(0xaa)](_0x3fe073(0x9d)+prefix+'22:00');let _0x46cf84=await sck['findOne']({'id':_0x2d20b0[_0x3fe073(0x94)]});return!_0x46cf84?(await new sck({'id':_0x2d20b0[_0x3fe073(0x94)],'unmute':_0x21d449})[_0x3fe073(0x9c)](),_0x2d20b0[_0x3fe073(0xaa)](_0x3fe073(0xa0))):(await await sck[_0x3fe073(0x96)]({'id':_0x2d20b0[_0x3fe073(0x94)]},{'unmute':_0x21d449}),_0x2d20b0['reply'](_0x3fe073(0x9b)+_0x21d449+'\x20successfully._'));}),cmd({'pattern':_0x782339(0x95),'desc':_0x782339(0xa7),'category':_0x782339(0xad)},async(_0x2fdfb1,_0x57b2a4,_0x39c349,{isCreator:_0x3ffdce})=>{const _0x20c058=_0x782339;if(!_0x3ffdce)return _0x57b2a4[_0x20c058(0xaa)](tlang()[_0x20c058(0x98)]);if(!_0x57b2a4[_0x20c058(0x93)])return _0x57b2a4[_0x20c058(0xaa)](tlang()['group']);let _0x1662b1=await sck[_0x20c058(0xab)]({'id':_0x57b2a4[_0x20c058(0x94)]});return!_0x1662b1?_0x57b2a4[_0x20c058(0xaa)](_0x20c058(0xb6)):(await await sck[_0x20c058(0x96)]({'id':_0x57b2a4[_0x20c058(0x94)]},{'unmute':_0x20c058(0xa6)}),_0x57b2a4[_0x20c058(0xaa)](_0x20c058(0x99)));}),cmd({'pattern':_0x782339(0xa5),'desc':_0x782339(0xa4),'category':_0x782339(0xad)},async(_0xf210b,_0x342d05,_0x42dd03,{isCreator:_0x1e957b})=>{const _0x322205=_0x782339;if(!_0x1e957b)return _0x342d05[_0x322205(0xaa)](tlang()[_0x322205(0x98)]);if(!_0x342d05[_0x322205(0x93)])return _0x342d05[_0x322205(0xaa)](tlang()[_0x322205(0x9a)]);let _0x3d96be=await sck['findOne']({'id':_0x342d05[_0x322205(0x94)]});return!_0x3d96be?_0x342d05[_0x322205(0xaa)](_0x322205(0xb9)):(await await sck[_0x322205(0x96)]({'id':_0x342d05[_0x322205(0x94)]},{'mute':_0x322205(0xa6)}),_0x342d05[_0x322205(0xaa)](_0x322205(0xa2)));});function _0x19b2(_0x2a9b8c,_0x4be6af){const _0x305bcf=_0x305b();return _0x19b2=function(_0x19b24c,_0x541517){_0x19b24c=_0x19b24c-0x93;let _0x5f2092=_0x305bcf[_0x19b24c];return _0x5f2092;},_0x19b2(_0x2a9b8c,_0x4be6af);}function _0x305b(){const _0x1e6d2e=['_Mute\x20added\x20for\x20','Mute\x20deleted\x20successfully.','sets\x20auto\x20mute\x20time\x20in\x20group.','Delete\x20mute\x20from\x20group.','dmute','false','Delete\x20unmute\x20from\x20group.','132752JiKbyk','\x20successfully._','reply','findOne','22:00','moderation','split','2831193rzfoWF','sets\x20unmute\x20time\x20in\x20group.','172739SwLvDS','amute','542921rqzEYx','1708036FUPeWu','538275OKIVWO','There\x27s\x20no\x20unmute\x20set\x20in\x20group.','1622838vJnnEq','../lib','There\x27s\x20no\x20mute\x20set\x20in\x20group.','isGroup','chat','dunmute','updateOne','aunmute','owner','Unmute\x20deleted\x20successfully.','group','_Unmute\x20updated\x20for\x20','save','Please\x20provide\x20correct\x20form.\x0aEg:\x20setmute\x20','2rpHJFU','72FfCowA','Mute\x20added.'];_0x305b=function(){return _0x1e6d2e;};return _0x305b();}
