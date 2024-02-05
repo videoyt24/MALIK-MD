@@ -114,14 +114,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/excelottah6/IZUKU-MD')
+        let { data } = await axios.get('https://api.github.com/repos/arkhan998/MALIK-MD')
         let cap = `Hey ${citel.pushName}\n
 ╭┈─────────────────────    .· * • ˚
-│*⭐ Total Stars:* ${data.stargazers_count} stars
-│*🍴 Forks:* ${data.forks_count} forks
-│*📡 Repo:* https://github.com/excelottah6/IZUKU-MD
-│*🏘Group:* https://chat.whatsapp.com/BEhEne7RdGBC3y5vYltuxL
-│*🧑‍💻Deploy IZUKU MD*:https://github.com/excelottah6/IZUKU-MD
+│ *⭐ Total Stars:* ${data.stargazers_count} stars
+│ *🍴 Forks:* ${data.forks_count} forks
+│ *📡 Repo:* https://github.com/arkhan998/MALIK-MD
+│ *🏘Group:* https://chat.whatsapp.com/DFPl94ASqoHL5jdeZ1eFJG
+│ *🧑‍💻Deploy MALIK MD NOW*
 ╰──────────────────────✬      * ˚  ✶`
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -130,12 +130,12 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "IZUKU-Repo",
+                    title: "Malik-Md-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
-                    mediaUrl: '',
-                    sourceUrl: ``,
+                    mediaUrl: 'https://whatsapp.com/channel/0029VaN8WMOHFxP0SLAKKu0P',
+                    sourceUrl: `https://whatsapp.com/channel/0029VaN8WMOHFxP0SLAKKu0P`,
                 },
             },
         };
@@ -164,7 +164,7 @@ cmd({
 ╰─➤*⚡️Speed:* ${latensie.toFixed(4)} ms
 ╰─➤*⏱Uptime:* ${runtime(process.uptime())}
 ╰─➤*📡Version:* 0.0.8
-╰─➤*👤Owner:*  ${Config.ownername}
+╰─➤*👤Owner:*  Ata Ur Rehman
 ╰─➤*Powered by ${tlang().title}*
 °୭̥ ❁ ───────────────────────── .°୭̥ ❁ `;
         let buttonMessaged = {
