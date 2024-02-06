@@ -6,7 +6,7 @@
  * @project_name : MALIK-MD
  * @author : arkhan998 <https://github.com/arkhan998>
  * @description : malik,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @version 0.0.7
  **/
 
 //---------------------------------------------------------------------------
