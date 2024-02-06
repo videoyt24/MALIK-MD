@@ -179,7 +179,7 @@
 ***Tap On Logo To Subscribe MY YouTube Channel***
 </p>
  <p align="left">
-  <a href="https://www.youtube.com/@mhmodsofc?sub_confirmation=1">
+  <a href="https://youtube.com/@technicalmalikofficial?si=CXnFQmsKVz-0eHq3 ?sub_confirmation=1">
     <img alt=Support height="70" src="https://telegra.ph/file/eb6347e2764939fbbd35d.png"> 
   </p>
     
