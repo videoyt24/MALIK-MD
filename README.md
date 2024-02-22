@@ -144,7 +144,7 @@
 
 ## Thanks To 
 1: Naveed Dogar
-
+**2:Thanks to excel owner of izuku md**
 
 ## ⚖️  *MALIK-MD - DEVELOPER TEAM* *2024*  ⚖️
 
