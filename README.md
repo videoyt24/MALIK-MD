@@ -28,7 +28,7 @@
 ---
 # ```Scan QR Code```
 
-1. ***Get [SESSION-ID](https://mmmmdak-7f7b57634c25.herokuapp.com/) by scanning QR code. `Whatapp>Three dots>Linked Devices****
+1. ***Get [SESSION-ID](https://malikmdqr-88a402e262f9.herokuapp.com/) by scanning QR code. `Whatapp>Three dots>Linked Devices****
 --- 
 # ```Fork Repo```
 2. ***Click [FORK](https://github.com/arkhan998/MALIK-MD/fork)***
@@ -201,3 +201,5 @@
 
 
 </br>
+
+***MALIK-MD NEW UPDATE COMMING SOON....***
